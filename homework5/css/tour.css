@@ -1,0 +1,400 @@
+*{
+
+}
+
+body{
+    height: auto;
+    background-image: url(../photo/background.jpg);
+    object-fit: cover;
+}
+
+/* info */
+.page{
+background: aqua;
+width: auto;
+height: 550px;
+background-image: url(../photo/slider1.jpg);
+background-repeat:no-repeat;
+object-fit: cover; 
+}
+.text{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+.page .text h1{
+    color: rgb(23, 4, 68); 
+    font-size: 3em;
+    text-align: center;
+}
+.page .text h3{
+    color: rgb(23, 4, 68);
+    font-size: 3em;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    left: 50px;
+    left: 490px;
+    top: 155px;
+}
+
+.page .button button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    font-size: 1.5em;
+    color: rgb(153, 153, 243);
+    border: 2px solid rgb(153, 153, 243);
+}
+.button:hover{
+    background: white;
+    
+}
+
+.draw{
+    position: relative;
+    left: 0px;
+    top: 30px;
+    background: #333;
+    width: 60px;
+    height: 60px;
+}
+.draw i{
+    color: #5f666b;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 18px;
+
+}
+.draw i:hover{
+    color: white;
+    transition: width .2s ease;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background: #033958;
+}
+.user i{
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+    padding-left: 12px;
+}
+
+.user i:hover{
+    font-size: 20px;
+    transition: width .2s ease;
+}
+/* end of info */
+
+/* different */
+
+
+.row .col-md-12{
+    height: 200px;
+    background: transparent;
+    text-align: center;
+    padding-top: 50px;
+    /* opacity: 0,0,0,1; */
+}
+.row .col-md-12 h1{
+    font-size: 3em;
+    color: white;
+    padding-bottom: 20px;
+}
+.row .col-md-12 hr{
+    
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+.row .col-md-3{
+    height: 150px;
+    /* padding-left: 130px; */
+    /* padding-top: 50px; */
+}
+.row .col-md-3 .icon{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid rgba(13, 13, 212, 0.747);
+    border-radius: 50px;
+    line-height: 100px;
+    margin-left: 100px;
+}
+.row .col-md-3 .icon i{
+    padding: 30px;
+    font-size: 2em;
+    color: white;
+}
+.row .col-md-3 .air{
+   transform: rotate(-90deg);
+}
+
+.row{
+    height: 150x;
+}
+
+.row .col-md-3 hr{
+    height: 2px;
+    width: 30px;
+    background:rgba(13, 13, 212, 0.747); 
+}
+.row .col-md-3 h3{
+    /* padding-top: 20px; */
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    
+
+}
+.row .col-md-3 h4{
+    padding-top: 20px;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* end of different */
+
+
+
+/* winter trips */
+.row .col-md-12#winter{
+    height:200px;
+    background: transparent;
+    margin-bottom: 30px;
+}
+.row .col-md-12#winter h2{
+color: blue;
+line-height: 200px;
+font-size: 3em;
+
+}
+.row .col-md-12#winter hr{
+width: 50px;
+background: blue;
+margin-top: -60px;
+}
+
+.row .col-md-6{
+    cursor: pointer;
+    height: 400px;
+    
+}
+
+.row .col-md-6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+}
+.Jasna{
+    width: 215px;
+    height: 50px;
+    background: transparent;
+    position: absolute;
+    top: 160px;
+    left: 245px;
+    
+}
+.Jasna h2{
+    font-size: 2em;
+    color: white;
+}
+.price{
+    width: 130px;
+    height: 40px;
+    background: red;
+    position: relative;
+    left: 30px;
+    top: -330px;
+}
+.price h4{
+    color: white;
+    font-size: 1em;
+    line-height: 40px;
+
+}
+.lapland{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    position: relative;
+    top: -240px;
+    left: 210px;
+}
+
+.lapland h2{
+    font-size: 2em;
+    color: white;
+}
+.price2{
+    width: 130px;
+    height: 40px;
+    background: red;
+    position: relative;
+    left: 30px;
+    top: -380px;
+}
+.price2 h4{
+    color: white;
+    font-size: 1em;
+    line-height: 40px;
+}
+.price3{
+    width: 130px;
+    height: 40px;
+    background: red;
+    position: relative;
+    left: 30px;
+    top: -330px;
+}
+.price3 h4{
+    color: white;
+    font-size: 1em;
+    line-height: 40px;
+}
+.price4{
+    width: 130px;
+    height: 40px;
+    background: red;
+    position: relative;
+    left: 30px;
+    top: -330px;
+}
+.price4 h4{
+    color: white;
+    font-size: 1em;
+    line-height: 40px;
+}
+
+.austria{
+    width: 320px;
+    height: 50px;
+    background: transparent;
+    position: relative;
+    top: -240px;
+    left: 160px;
+}
+.austria h2{
+    font-size: 2em;
+    color: white;
+}
+
+.sweeden{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    position: relative;
+    top: -240px;
+    left: 210px;
+}
+.col-md-6 img:hover{
+   /* background:0,0,0,0.8; ????? */
+}
+.sweeden h2{
+    font-size: 2em;
+    color: white;
+}
+
+/* end of winter trips */
+
+/* destination */
+.row .col-md-12 .btn{
+    width: 250px;
+    height: 50px;
+    border-radius:0px;
+}
+.row .col-md-12 .btn:hover{
+    background: blue;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-in;
+}
+/* end of destination */
+
+/* china */
+    .row#final{
+        background: rgb(51, 51, 241);
+        height: 400px;
+        padding-top: 60px;
+        
+    }
+.row#final h3{
+    color: white;
+}
+.row#final h1{
+    color: white;
+}
+
+/* end of china */
+ 
+/* last */
+.row#last{
+    background: transparent;
+}
+
+.row#last h2{
+    color: white;
+    font-size: 2.6em;
+}
+.row#last hr{
+    background: white;
+}
+
+.row#family .col-md-4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.row#infolast .col-md-4{
+    padding-right: 50px;
+    padding-left: 50px;
+    background: white;
+    height: 200px;
+}
+
+.row#feb .col-md-4 p{
+    display: inline;   
+}
+.row#feb .col-md-4{
+    background: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 100px;
+}
+
+.row#infolast{
+    background: transparent;
+}
+
+.row#infolast h2{
+    color: red;
+    font-size: 1em;
+}
+.row#infolast h4{
+    font-size: 1em;
+}
+/* end of last */
+
+/* footer */
+.row#foot{
+    background: blue;
+}
+
+.row#footlast{
+    background: red;
+}
+/* end of footer */
